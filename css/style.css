@@ -1,0 +1,111 @@
+body {
+    display: block;
+    margin: 8px;
+    font-family:Arial, Helvetica, sans-serif, monospace;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #92a4ff;
+}
+
+h1 {
+    background-image: url(/asset/imagenes/apex2.svg);
+    background-size: cover; 
+    background-position: center ;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    height: 100px;
+    width: 97.7%; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center; 
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow:hidden;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.image {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: right;
+    width: 300px;
+    box-shadow: 5px 5px 5px;
+}
+
+.image2 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    box-shadow: 5px 5px 5px;   
+}
+.section {
+    float: left;
+    width: 70%;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCC;
+}
+
+.footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
